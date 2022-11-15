@@ -1,0 +1,389 @@
+--------- beginning of main
+09-15 16:12:53.619  2010  2130 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConfigStore$2@bff0d27
+09-15 16:12:53.638  2010  2130 D WifiConfigStore: Writing to stores completed in 19 ms.
+09-15 16:13:00.008  2169  2169 D KeyguardClockSwitch: Updating clock: 413
+09-15 16:13:10.982  1876  1876 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+09-15 16:13:11.342  2524  3635 I native  : input-context-store.cc:172 Ignoring stale client request for FetchSuggestions
+09-15 16:13:11.863  1894  1894 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+09-15 16:13:13.534  2524  2524 I PhenotypeExpConfig: refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 189 minutes : MaxAge = 720 minutes
+09-15 16:13:13.537  2524  2524 I AndroidIME: LatinIme.onDeactivate()
+09-15 16:13:13.562  2524  2524 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+09-15 16:13:13.562  2524  2524 I AndroidIME: PasswordIme.onActivate() : EditorInfo = Package = com.example.basic_application_activity : Type = Password : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Hide : NoPersonalizedLearning = Disable
+09-15 16:13:13.565  2524  2524 I KeyboardViewHelper: Get view with height ratio:1.000000; experiment height ratio:1.000000.
+09-15 16:13:13.569  2524  2524 I Conv2QueryExtension: Current locale: en_US, config allows these locales: de,en,es,fr,it,ms,pt,ta
+09-15 16:13:13.570  2524  2524 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.example.basic_application_activity] not in whitelist
+09-15 16:13:13.570  2524  2524 I Conv2QueryExtension: onActivate() : Disabled by unsupported host app
+09-15 16:13:13.575  2524  2524 I CurrentMicStatusHolder: Current Mic status = {MicIconHidden-PasswordOrNumberOrDateInputType,}
+09-15 16:13:17.606  2169  2169 I KeyButtonView: Back button event: ACTION_DOWN
+09-15 16:13:17.609  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:17.614  1778  5085 W audio_hw_generic: Not supplying enough data to HAL, expected position 5763938 , only wrote 5763920
+09-15 16:13:17.615  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:17.681  2169  2169 I KeyButtonView: Back button event: ACTION_UP
+09-15 16:13:17.682  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+--------- beginning of system
+09-15 16:13:17.683  2010  2041 D AutofillManagerService: onBackKeyPressed()
+09-15 16:13:17.685  1748  1968 I netd    : firewallSetUidRule(2, 10145, 2) <0.02ms>
+09-15 16:13:17.687  2524  2524 I PhenotypeExpConfig: refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 189 minutes : MaxAge = 720 minutes
+09-15 16:13:17.687  2524  2524 I AndroidIME: PasswordIme.onDeactivate()
+09-15 16:13:17.692  2524  6896 D EGL_emulation: eglMakeCurrent: 0xdc31af60: ver 2 0 (tinfo 0xdc30f8f0)
+09-15 16:13:20.551  2010  3351 I ActivityTaskManager: START u0 {cmp=com.example.basic_application_activity/.My_2nd_activity} from uid 10153
+09-15 16:13:20.587  8298  8298 I MainActivity: in method onPause
+09-15 16:13:20.593  2010  2479 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:20.597  2010  2479 I chatty  : uid=1000(system) Binder:2010_A identical 48 lines
+09-15 16:13:20.597  2010  2479 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:20.616  8298  8298 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@cf8d6a4
+09-15 16:13:20.632  8298  8298 I My_2nd_activity: in method onCreate
+09-15 16:13:20.657  8298  8298 I My_2nd_activity: in method onStart
+09-15 16:13:20.658  8298  8298 I My_2nd_activity: in method onResume
+09-15 16:13:20.686  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:20.702  1789  1832 I chatty  : uid=1000(system) HwBinder:1789_1 identical 1 line
+09-15 16:13:20.710  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:20.727  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:20.742  8298  8347 I chatty  : uid=10153(com.example.basic_application_activity) RenderThread identical 1 line
+09-15 16:13:20.749  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:20.750  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:20.751  2010  2044 I chatty  : uid=1000(system) android.anim identical 8 lines
+09-15 16:13:20.751  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:20.753  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:20.754  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:20.754  2010  2044 I chatty  : uid=1000(system) android.anim identical 8 lines
+09-15 16:13:20.754  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:20.766  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:20.775  8298  8347 I chatty  : uid=10153(com.example.basic_application_activity) RenderThread identical 1 line
+09-15 16:13:21.177  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:21.199  8298  8298 I MainActivity: in method onStop
+09-15 16:13:23.685  1778  1778 W audio_hw_generic: Not supplying enough data to HAL, expected position 6297591 , only wrote 6031625
+09-15 16:13:26.226  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:26.298  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:26.298  2010  3351 I chatty  : uid=1000(system) Binder:2010_E identical 8 lines
+09-15 16:13:26.298  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:26.300  1778  5085 W audio_hw_generic: Not supplying enough data to HAL, expected position 6031647 , only wrote 6031625
+09-15 16:13:26.316  8298  8298 I My_2nd_activity: in method onPause
+09-15 16:13:26.318  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:26.320  2010  3351 I chatty  : uid=1000(system) Binder:2010_E identical 28 lines
+09-15 16:13:26.320  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:26.333  8298  8298 I MainActivity: in method onStart
+09-15 16:13:26.333  8298  8298 I MainActivity: in method onResume
+09-15 16:13:26.349  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:26.354  1789  1832 I chatty  : uid=1000(system) HwBinder:1789_1 identical 1 line
+09-15 16:13:26.360  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:26.365  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:26.382  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:26.398  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:26.400  2010  2044 I chatty  : uid=1000(system) android.anim identical 18 lines
+09-15 16:13:26.400  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:26.404  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:26.415  8298  8347 I chatty  : uid=10153(com.example.basic_application_activity) RenderThread identical 1 line
+09-15 16:13:26.810  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:26.829  8298  8298 I My_2nd_activity: in method onStop
+09-15 16:13:26.832  8298  8298 I My_2nd_activity: in method onDestroy
+09-15 16:13:26.907  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:29.449  1778  1778 W audio_hw_generic: Not supplying enough data to HAL, expected position 6307470 , only wrote 6170435
+09-15 16:13:31.164  2169  2169 I KeyButtonView: Back button event: ACTION_DOWN
+09-15 16:13:31.165  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:31.171  1778  5085 W audio_hw_generic: Not supplying enough data to HAL, expected position 6170524 , only wrote 6170435
+09-15 16:13:31.264  2169  2169 I KeyButtonView: Back button event: ACTION_UP
+09-15 16:13:31.266  2010  2041 D AutofillManagerService: onBackKeyPressed()
+09-15 16:13:31.266  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:31.272  2010  2479 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:31.272  2010  2479 I chatty  : uid=1000(system) Binder:2010_A identical 8 lines
+09-15 16:13:31.272  2010  2479 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:31.276  8298  8298 I MainActivity: in method onPause
+09-15 16:13:31.279  2010  2479 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:31.279  2010  2479 I chatty  : uid=1000(system) Binder:2010_A identical 8 lines
+09-15 16:13:31.279  2010  2479 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:31.302  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:31.308  2010  2010 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+09-15 16:13:31.308  2010  2010 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+09-15 16:13:31.313  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:31.315  3125  3504 D EGL_emulation: eglMakeCurrent: 0xdc31b560: ver 2 0 (tinfo 0xdc30fb00)
+09-15 16:13:31.315  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:31.339  1789  1832 I chatty  : uid=1000(system) HwBinder:1789_1 identical 2 lines
+09-15 16:13:31.342  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:31.350  2499  3136 D EGL_emulation: eglMakeCurrent: 0xdc31a300: ver 2 0 (tinfo 0xdc30f7e0)
+09-15 16:13:31.364  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:31.364  2010  2044 I chatty  : uid=1000(system) android.anim identical 8 lines
+09-15 16:13:31.364  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:31.368  1807  1874 D PermissionCache: checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (635 us)
+09-15 16:13:31.368  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9441280
+09-15 16:13:31.430  3125  3125 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+09-15 16:13:31.446  1807  2008 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10108 pid=2499
+09-15 16:13:31.446  1807  2008 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10108 => denied (1143 us)
+09-15 16:13:31.452  3125  3447 W SessionLifecycleManager: Handover failed. Creating new session controller.
+09-15 16:13:31.548  3125  8483 W LocationOracle: No location history returned by ContextManager
+09-15 16:13:31.556  3125  3447 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+09-15 16:13:31.558  3125  3447 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+09-15 16:13:31.560  3125  3447 I MicroDetector: Keeping mic open: false
+09-15 16:13:31.560  3125  3447 I MicroDetectionWorker: #onError(false)
+09-15 16:13:31.587  2668  3631 W GCoreFlp: No location to return for getLastLocation()
+09-15 16:13:31.589  2668  7384 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.612  2668  2668 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+09-15 16:13:31.614  2668  2668 I chatty  : uid=10113 com.google.android.gms.persistent identical 1 line
+09-15 16:13:31.640  2668  2668 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+09-15 16:13:31.653  2668  7245 W ctxmgr  : [AclManager] No 3 for (accnt=account#1178712851#, com.google.android.gms(10113):UserVelocityProducer, vrsn=202414022, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 2668). Was: 2 for 1, account#1178712851# [CONTEXT service_id=47 ]
+09-15 16:13:31.663  2668  7244 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.700  2668  2668 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+09-15 16:13:31.703  2668  2668 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+09-15 16:13:31.718  2668  7381 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.721  2668  7245 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+09-15 16:13:31.729  2668  7381 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.730  2668  8487 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 0 [CONTEXT service_id=253 ]
+09-15 16:13:31.732  2668  7381 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.733  2668  8487 I PlacesLogger: [PlaceInferenceEngine]: [account#1178712851] Changed inference mode: 0 [CONTEXT service_id=253 ]
+09-15 16:13:31.734  2668  8491 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.743  2668  3631 W GCoreFlp: No location to return for getLastLocation()
+09-15 16:13:31.758  2668  3631 W GCoreFlp: No location to return for getLastLocation()
+09-15 16:13:31.797  2668  7245 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.800  2668  7244 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.818  2668  7245 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:31.834  2668  8487 I LogUtils: [Places]: ?: PlacesBleScanner start() with priority 2 [CONTEXT service_id=253 ]
+09-15 16:13:31.836  2668  8487 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 1 [CONTEXT service_id=253 ]
+09-15 16:13:31.837  2668  8487 I PlacesLogger: [PlaceInferenceEngine]: [account#1178712851] Changed inference mode: 1 [CONTEXT service_id=253 ]
+09-15 16:13:31.847  2668  2668 E BeaconBle: Missing BluetoothAdapter [CONTEXT service_id=111 ]
+09-15 16:13:31.847  2668  2668 I BeaconBle: BLE 'KK+' software access layer enabled [CONTEXT service_id=111 ]
+09-15 16:13:31.855  2668  3631 W GCoreFlp: No location to return for getLastLocation()
+09-15 16:13:31.864  2668  2668 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places] [CONTEXT service_id=111 ]
+09-15 16:13:31.864  2668  2668 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+09-15 16:13:31.865  2668  2668 E BeaconBle: Scan couldn't start for Places [CONTEXT service_id=111 ]
+09-15 16:13:31.865  2668  2668 W Places  : BLE failure while scanning - code 5
+09-15 16:13:31.876  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:31.883  8298  8298 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+09-15 16:13:31.884  8298  8298 I MainActivity: in method onStop
+09-15 16:13:31.885  8298  8298 I MainActivity: in method onDestroy
+09-15 16:13:31.886  2010  8493 D HostConnection: HostConnection::get() New Host Connection established 0xbd975460, tid 8493
+09-15 16:13:31.888  2010  8493 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+09-15 16:13:31.889  2010  8493 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+09-15 16:13:31.901  2010  8493 D EGL_emulation: eglCreateContext: 0xd8ed1860: maj 2 min 0 rcv 2
+09-15 16:13:31.903  2010  8493 D EGL_emulation: eglMakeCurrent: 0xd8ed1860: ver 2 0 (tinfo 0xc05068b0)
+09-15 16:13:32.475  2010  3318 D WificondControl: Scan result ready event
+09-15 16:13:34.320  1778  1778 W audio_hw_generic: Not supplying enough data to HAL, expected position 6446364 , only wrote 6309245
+09-15 16:13:35.326  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:35.332  1778  5085 W audio_hw_generic: Not supplying enough data to HAL, expected position 6309331 , only wrote 6309245
+09-15 16:13:35.380  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:35.381  2010  2040 D AutofillManagerService: Close system dialogs
+09-15 16:13:35.384  2010  2041 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+09-15 16:13:35.393  2169  2169 V StatusBar: mStatusBarWindow: com.android.systemui.statusbar.phone.StatusBarWindowView{f37304b V.E...... ........ 0,0-1440,84} canPanelBeCollapsed(): false
+09-15 16:13:35.394  2010  2010 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+09-15 16:13:35.394  2010  2010 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+09-15 16:13:36.565  3125  3447 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+09-15 16:13:36.570  3125  3447 W ErrorReporter: reportError [type: 211, code: 393244, bug: 0]: errorCode: 393244, engine: 0
+09-15 16:13:36.571  3125  3447 I MicroDetector: Keeping mic open: false
+09-15 16:13:36.571  3125  3447 I MicroDetectionWorker: #onError(false)
+09-15 16:13:37.194  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.046  2010  6176 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.basic_application_activity/.MainActivity bnds=[47,336][316,673]} from uid 10108
+09-15 16:13:38.055  2010  2010 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+09-15 16:13:38.055  2010  2010 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+09-15 16:13:37.324  2169  2570 I chatty  : uid=10112(com.android.systemui) RenderThread identical 16 lines
+09-15 16:13:37.328  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.057  2010  2044 E system_server: Invalid ID 0x00000000.
+09-15 16:13:38.062  2010  6176 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:38.063  2010  6176 I chatty  : uid=1000(system) Binder:2010_17 identical 28 lines
+09-15 16:13:38.063  2010  6176 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:38.064  8298  8298 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@49dfdf5
+09-15 16:13:38.064  2010  6176 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:38.065  2010  6176 I chatty  : uid=1000(system) Binder:2010_17 identical 8 lines
+09-15 16:13:38.065  2010  6176 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:38.080  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:38.134  8298  8298 I MainActivity: in method onCreate
+09-15 16:13:38.137  8298  8298 I MainActivity: in method onStart
+09-15 16:13:38.141  8298  8298 I MainActivity: in method onResume
+09-15 16:13:38.147  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:38.147  2010  2044 I chatty  : uid=1000(system) android.anim identical 8 lines
+09-15 16:13:38.147  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:38.176  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:38.187  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:38.198  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:38.204  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:38.230  2010  2048 I ActivityTaskManager: Displayed com.example.basic_application_activity/.MainActivity: +174ms
+09-15 16:13:38.288  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.292  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1112e40
+09-15 16:13:38.307  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.310  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113080
+09-15 16:13:38.322  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.327  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113140
+09-15 16:13:38.338  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.346  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1112e40
+09-15 16:13:38.356  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.361  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113080
+09-15 16:13:38.372  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.376  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113140
+09-15 16:13:38.389  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.392  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.393  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1112e40
+09-15 16:13:38.398  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.408  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.412  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113080
+09-15 16:13:38.413  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.419  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.422  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.425  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113140
+09-15 16:13:38.431  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.436  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.438  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.441  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1112e40
+09-15 16:13:38.445  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.451  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.456  1790  1835 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.459  1790  1835 W EmuHWC2 : No layers, exit, buffer 0xf1113080
+09-15 16:13:38.460  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.466  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.472  1790  8470 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.476  1790  8470 W EmuHWC2 : No layers, exit, buffer 0xf1113140
+09-15 16:13:38.478  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.484  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.489  1790  8470 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.492  1790  8470 W EmuHWC2 : No layers, exit, buffer 0xf1112e40
+09-15 16:13:38.494  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.501  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.506  1790  8470 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.509  1790  8470 W EmuHWC2 : No layers, exit, buffer 0xf1113080
+09-15 16:13:38.511  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.518  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
+09-15 16:13:38.522  1790  8470 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.525  1790  8470 W EmuHWC2 : No layers, exit, buffer 0xf1113140
+09-15 16:13:38.539  1790  8470 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.542  1790  8470 W EmuHWC2 : No layers, exit, buffer 0xf1112e40
+09-15 16:13:38.556  1790  8470 W EmuHWC2 : validate: layer 112 CompositionType 1, fallback
+09-15 16:13:38.560  1790  8470 W EmuHWC2 : No layers, exit, buffer 0xf1113080
+09-15 16:13:38.622  1807  1807 E Layer   : [Surface(name=AppWindowToken{82f9541 token=Token{f393428 ActivityRecord{1d1f24b u0 com.example.basic_application_activity/.MainActivity t94}}})/@0x36750b1 - animation-leash#0] No local sync point found
+09-15 16:13:38.622  1807  1807 E Layer   : [Surface(name=AppWindowToken{82f9541 token=Token{f393428 ActivityRecord{1d1f24b u0 com.example.basic_application_activity/.MainActivity t94}}})/@0x36750b1 - animation-leash#0] No local sync point found
+09-15 16:13:38.622  1807  1807 E Layer   : [Surface(name=AppWindowToken{c90c215 token=Token{aea7fcc ActivityRecord{369a91e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t86}}})/@0x1d3908f - animation-leash#0] No local sync point found
+09-15 16:13:38.623  1807  1807 E Layer   : [Surface(name=AppWindowToken{c90c215 token=Token{aea7fcc ActivityRecord{369a91e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t86}}})/@0x1d3908f - animation-leash#0] No local sync point found
+09-15 16:13:38.625  3125  3504 D EGL_emulation: eglMakeCurrent: 0xdc31b560: ver 2 0 (tinfo 0xdc30fb00)
+09-15 16:13:38.638  1807  1807 E Layer   : [Surface(name=AppWindowToken{82f9541 token=Token{f393428 ActivityRecord{1d1f24b u0 com.example.basic_application_activity/.MainActivity t94}}})/@0x36750b1 - animation-leash#0] No local sync point found
+09-15 16:13:38.638  1807  1807 E Layer   : [Surface(name=AppWindowToken{c90c215 token=Token{aea7fcc ActivityRecord{369a91e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t86}}})/@0x1d3908f - animation-leash#0] No local sync point found
+09-15 16:13:38.647  2499  3136 D EGL_emulation: eglMakeCurrent: 0xdc31a300: ver 2 0 (tinfo 0xdc30f7e0)
+09-15 16:13:38.662  3125  8479 I PBSessionCacheImpl: Deleted sessionId[1597180351043] from persistence.
+09-15 16:13:38.671  3125  3447 W SearchServiceCore: Abort, client detached.
+09-15 16:13:38.687  1807  1807 W SurfaceFlinger: couldn't log to binary event log: overflow.
+09-15 16:13:40.798  1748  1968 I netd    : firewallSetUidRule(2, 10145, 1) <0.02ms>
+09-15 16:13:40.801  8298  8298 I AssistStructure: Flattened final assist data: 1772 bytes, containing 1 windows, 9 views
+09-15 16:13:40.808  2524  2524 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+09-15 16:13:40.809  2524  2524 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.example.basic_application_activity : Type = Email : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = DisabledMic : NoPersonalizedLearning = Disable
+09-15 16:13:40.812  2668  2668 W ktk     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+09-15 16:13:40.813  2524  2524 I KeyboardViewHelper: Get view with height ratio:1.000000; experiment height ratio:1.000000.
+09-15 16:13:40.831  2524  2524 I Conv2QueryExtension: Current locale: en_US, config allows these locales: de,en,es,fr,it,ms,pt,ta
+09-15 16:13:40.831  2524  2524 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.example.basic_application_activity] not in whitelist
+09-15 16:13:40.831  2524  2524 I Conv2QueryExtension: onActivate() : Disabled by unsupported host app
+09-15 16:13:40.831  2524  2524 I CurrentMicStatusHolder: Current Mic status = {MicIconHidden-EmailInputType,}
+09-15 16:13:40.845  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14262272
+09-15 16:13:40.853  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14262272
+09-15 16:13:40.855  2524  6896 D EGL_emulation: eglMakeCurrent: 0xdc31af60: ver 2 0 (tinfo 0xdc30f8f0)
+09-15 16:13:40.865  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14262272
+09-15 16:13:40.878  2010  6176 I AssistStructure: Flattened final assist data: 1556 bytes, containing 1 windows, 9 views
+09-15 16:13:40.879  2668  2736 W kps     : Infinite Data has no result for com.example.basic_application_activity [CONTEXT service_id=177 ]
+09-15 16:13:40.894  2668  7394 W kps     : Infinite Data has no result for com.example.basic_application_activity [CONTEXT service_id=177 ]
+09-15 16:13:41.011  2010  4903 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.auth.key.retrieval.service.START pkg=com.google.android.gms } U=0: not found
+09-15 16:13:41.012  2010  4903 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@53913e7
+09-15 16:13:41.012  2860  3510 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+09-15 16:13:41.017  2010  2041 D AutofillUI: destroySaveUiUiThread(): already destroyed
+09-15 16:13:41.179  1778  1778 W audio_hw_generic: Not supplying enough data to HAL, expected position 6822969 , only wrote 6567035
+09-15 16:13:43.762  2668  8490 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:43.768  2668  8499 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:43.775  2668  8487 I LogUtils: [Places]: ?: PlacesBleScanner stop() [CONTEXT service_id=253 ]
+09-15 16:13:43.775  2668  2668 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+09-15 16:13:43.776  2668  2668 I BeaconBle: Scan canceled successfully. [CONTEXT service_id=111 ]
+09-15 16:13:43.781  2668  8487 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 0 [CONTEXT service_id=253 ]
+09-15 16:13:43.781  2668  8487 I PlacesLogger: [PlaceInferenceEngine]: [account#1178712851] Changed inference mode: 0 [CONTEXT service_id=253 ]
+09-15 16:13:43.785  2668  3631 W GCoreFlp: No location to return for getLastLocation()
+09-15 16:13:43.794  2668  7384 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:43.795  2668  8499 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:43.797  2668  7244 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+09-15 16:13:43.821  2668  3361 W MessageQueue: Handler (aekz) {494a9a3} sending message to a Handler on a dead thread
+09-15 16:13:43.821  2668  3361 W MessageQueue: java.lang.IllegalStateException: Handler (aekz) {494a9a3} sending message to a Handler on a dead thread
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:558)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:754)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:703)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at aekz.sendMessageAtTime(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:673)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.Handler.post(Handler.java:403)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at bcfu.execute(Unknown Source:0)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at aaes.execute(Unknown Source:0)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at avll.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at avlz.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):5)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at avmf.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):33)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at avma.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at rqe.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):3)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at rqe.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):2)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at afwn.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at rou.a(:com.google.android.gms@202414022@20.24.14 (040700-319035315):0)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at cpc.onTransact(:com.google.android.gms@202414022@20.24.14 (040700-319035315):8)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1021)
+09-15 16:13:43.821  2668  3361 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:994)
+09-15 16:13:43.828  2668  2668 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+09-15 16:13:44.120  2524  2524 I PhenotypeExpConfig: refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 189 minutes : MaxAge = 720 minutes
+09-15 16:13:44.121  2524  2524 I AndroidIME: LatinIme.onDeactivate()
+09-15 16:13:44.144  2524  2524 I KeyboardViewUtil: systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+09-15 16:13:44.145  2524  2524 I AndroidIME: PasswordIme.onActivate() : EditorInfo = Package = com.example.basic_application_activity : Type = Password : Learning = Disable : Suggestion = Hide : AutoCorrection = Disable : Microphone = Hide : NoPersonalizedLearning = Disable
+09-15 16:13:44.148  2524  2524 I KeyboardViewHelper: Get view with height ratio:1.000000; experiment height ratio:1.000000.
+09-15 16:13:44.152  2524  2524 I Conv2QueryExtension: Current locale: en_US, config allows these locales: de,en,es,fr,it,ms,pt,ta
+09-15 16:13:44.152  2524  2524 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.example.basic_application_activity] not in whitelist
+09-15 16:13:44.152  2524  2524 I Conv2QueryExtension: onActivate() : Disabled by unsupported host app
+09-15 16:13:44.152  2524  2524 I CurrentMicStatusHolder: Current Mic status = {MicIconHidden-PasswordOrNumberOrDateInputType,}
+09-15 16:13:46.399  2169  2169 I KeyButtonView: Back button event: ACTION_DOWN
+09-15 16:13:46.401  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:46.406  1778  5085 W audio_hw_generic: Not supplying enough data to HAL, expected position 6567049 , only wrote 6567035
+09-15 16:13:46.462  2169  2169 I KeyButtonView: Back button event: ACTION_UP
+09-15 16:13:46.462  2010  2041 D AutofillManagerService: onBackKeyPressed()
+09-15 16:13:46.463  2010  2114 V InputDispatcher: Asynchronous input event injection succeeded.
+09-15 16:13:46.468  2524  2524 I PhenotypeExpConfig: refreshConfiguration() : Force = false : UpdateAvailable = false : Age = 189 minutes : MaxAge = 720 minutes
+09-15 16:13:46.468  2524  2524 I AndroidIME: PasswordIme.onDeactivate()
+09-15 16:13:46.468  1748  1968 I netd    : firewallSetUidRule(2, 10145, 2) <0.02ms>
+09-15 16:13:46.477  2524  6896 D EGL_emulation: eglMakeCurrent: 0xdc31af60: ver 2 0 (tinfo 0xdc30f8f0)
+09-15 16:13:47.336  2010  4903 I ActivityTaskManager: START u0 {cmp=com.example.basic_application_activity/.My_2nd_activity} from uid 10153
+09-15 16:13:47.351  8298  8298 I MainActivity: in method onPause
+09-15 16:13:47.352  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:47.355  2010  3351 I chatty  : uid=1000(system) Binder:2010_E identical 48 lines
+09-15 16:13:47.355  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:47.360  8298  8298 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@e7541e5
+09-15 16:13:47.378  8298  8298 I My_2nd_activity: in method onCreate
+09-15 16:13:47.403  8298  8298 I My_2nd_activity: in method onStart
+09-15 16:13:47.404  8298  8298 I My_2nd_activity: in method onResume
+09-15 16:13:47.435  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:47.442  1789  1832 I chatty  : uid=1000(system) HwBinder:1789_1 identical 1 line
+09-15 16:13:47.446  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:47.453  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:47.463  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:47.469  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:47.469  2010  2044 I chatty  : uid=1000(system) android.anim identical 8 lines
+09-15 16:13:47.469  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:47.469  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:47.470  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:47.470  2010  2044 I chatty  : uid=1000(system) android.anim identical 8 lines
+09-15 16:13:47.470  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:47.476  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:47.495  8298  8347 I chatty  : uid=10153(com.example.basic_application_activity) RenderThread identical 2 lines
+09-15 16:13:47.909  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:47.931  8298  8298 I MainActivity: in method onStop
+09-15 16:13:48.691  3125  3447 I WorkerManager: dispose()
+09-15 16:13:48.693  3125  3447 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+09-15 16:13:48.784  2668  2668 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+09-15 16:13:50.361  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:50.424  2010  6176 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:50.426  2010  6176 I chatty  : uid=1000(system) Binder:2010_17 identical 8 lines
+09-15 16:13:50.426  2010  6176 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:50.446  8298  8298 I My_2nd_activity: in method onPause
+09-15 16:13:50.451  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:50.454  2010  3351 I chatty  : uid=1000(system) Binder:2010_E identical 28 lines
+09-15 16:13:50.454  2010  3351 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:50.479  8298  8298 I MainActivity: in method onStart
+09-15 16:13:50.481  8298  8298 I MainActivity: in method onResume
+09-15 16:13:50.485  1778  1778 W audio_hw_generic: Not supplying enough data to HAL, expected position 6924854 , only wrote 6746827
+09-15 16:13:50.488  1778  5085 W audio_hw_generic: Not supplying enough data to HAL, expected position 6746848 , only wrote 6746827
+09-15 16:13:50.501  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:50.508  1789  1832 I chatty  : uid=1000(system) HwBinder:1789_1 identical 1 line
+09-15 16:13:50.513  1789  1832 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 14749696
+09-15 16:13:50.518  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:50.530  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:50.539  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:50.548  2010  2044 I chatty  : uid=1000(system) android.anim identical 18 lines
+09-15 16:13:50.548  2010  2044 W InputReader: Device has associated, but no associated display id.
+09-15 16:13:50.553  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:50.560  8298  8347 I chatty  : uid=10153(com.example.basic_application_activity) RenderThread identical 1 line
+09-15 16:13:50.975  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:50.991  8298  8298 I My_2nd_activity: in method onStop
+09-15 16:13:51.000  8298  8298 I My_2nd_activity: in method onDestroy
+09-15 16:13:51.057  8298  8347 D EGL_emulation: eglMakeCurrent: 0xe45657c0: ver 2 0 (tinfo 0xd8f120b0)
+09-15 16:13:53.621  1778  1778 W audio_hw_generic: Not supplying enough data to HAL, expected position 7021493 , only wrote 6884976
+09-15 16:14:00.003  2169  2169 D KeyguardClockSwitch: Updating clock: 414
+09-15 16:14:00.008  2169  2570 D EGL_emulation: eglMakeCurrent: 0xe44c5d40: ver 2 0 (tinfo 0xc3f3cb30)
